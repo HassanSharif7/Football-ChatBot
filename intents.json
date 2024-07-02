@@ -1,0 +1,208 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "Hi there",
+        "Hey there",
+        "Hello, anyone there?",
+        "Is anyone here?"
+      ],
+      "responses": [
+        "Hey! Ready to talk football?",
+        "Hello! How can I help?",
+        "Hi! What do you need?",
+        "Hello! What's up?",
+        "Hey! How can I assist?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "I'm leaving", "Catch you later"],
+      "responses": [
+        "Goodbye! Catch you later.",
+        "See you later! Enjoy the matches.",
+        "Bye! Come back soon.",
+        "Take care! Talk soon.",
+        "Farewell! Enjoy the game."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you","ok", "That's helpful", "Thanks a lot!", "Much appreciated", "Thanks for the help"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure.", "Glad to assist!", "You're welcome!"]
+    },
+    {
+      "tag": "leagues",
+      "patterns": [
+        "What are the top European football leagues?",
+        "Which leagues are popular in Europe?",
+        "Tell me about European football leagues.",
+        "Best football leagues in Europe?",
+        "Top leagues in European football?",
+        "Name some European leagues"
+      ],
+      "responses": [
+        "Premier League, La Liga, Bundesliga, Serie A, Ligue 1.",
+        "Top leagues: Premier League, La Liga, Serie A, Bundesliga, Ligue 1.",
+        "Premier League, La Liga, Bundesliga, Serie A, Ligue 1."
+      ]
+    },
+    {
+      "tag": "teams",
+      "patterns": [
+        "Which are the best football teams in Europe?",
+        "Top football clubs in Europe?",
+        "Tell me about famous European football teams.",
+        "Best football clubs in Europe?",
+        "Famous football teams in Europe?",
+        "Name some top European teams",
+        "Who are the best teams?"
+      ],
+      "responses": [
+        "FC Barcelona, Real Madrid, Manchester United, Bayern Munich, Juventus.",
+        "Top clubs: Barcelona, Real Madrid, Bayern, Man United, Juventus.",
+        "Famous teams: Barcelona, Real Madrid, Bayern, Man United, Juventus."
+      ]
+    },
+    {
+      "tag": "players",
+      "patterns": [
+        "Who are the best European football players?",
+        "Top football players in Europe?",
+        "Famous European football players?",
+        "Best football players in Europe?",
+        "Who are the top players in European football?",
+        "Best footballers in Europe",
+        "Top players in European football"
+      ],
+      "responses": [
+        "Messi, Ronaldo, Lewandowski, De Bruyne, Mbappé.",
+        "Top players: Messi, Ronaldo, Lewandowski, De Bruyne, Mbappé.",
+        "Famous players: Messi, Ronaldo, Lewandowski, De Bruyne, Mbappé."
+      ]
+    },
+    {
+      "tag": "competitions",
+      "patterns": [
+        "What are the major European football competitions?",
+        "Tell me about European football tournaments.",
+        "Famous football competitions in Europe?",
+        "Top European football tournaments?",
+        "Major football tournaments in Europe?",
+        "Biggest football competitions in Europe"
+      ],
+      "responses": [
+        "Champions League, Europa League, European Championship.",
+        "Top competitions: Champions League, Europa League, Euros.",
+        "Famous tournaments: Champions League, Europa League, Euros."
+      ]
+    },
+    {
+      "tag": "matches",
+      "patterns": [
+        "When is the next Champions League match?",
+        "Upcoming European football matches?",
+        "When do the top European teams play next?",
+        "Schedule of upcoming football matches in Europe?",
+        "When is the next big football match?",
+        "When's the next game?"
+      ],
+      "responses": [
+        "Next match is on 9 july -Stay Tuned.",
+        "Upcoming matches on 9 July -Stay Tuned.",
+        "Top teams play next on Upcoming Week .",
+        "Check the schedule on Score 90.",
+        "Next big match is on 20 July between Real Madrid and Barcelona."
+      ]
+    },
+    {
+      "tag": "results",
+      "patterns": [
+        "What were the results of the last Champions League match?",
+        "Latest European football match results?",
+        "Scores of the recent football matches in Europe?",
+        "Who won the last match?",
+        "Results of recent football games?",
+        "Recent match scores"
+      ],
+      "responses": [
+        "Last match: [Real Madrid] [2] - [0] [Dortmund].",
+        "Latest results: [2-0].",
+        "Recent scores: [2-0].",
+        "Last match winner: [Real Madrid], [2-0].",
+        "Recent game results: [Real Madrid 2-0]."
+      ]
+    },
+    {
+      "tag": "transfers",
+      "patterns": [
+        "Latest football transfers in Europe?",
+        "Who are the new signings in European football?",
+        "Recent player transfers?",
+        "Which players have been transferred recently?",
+        "New player signings?",
+        "Recent football transfers",
+        "Who moved teams recently?"
+      ],
+      "responses": [
+        "Latest transfers: Haaland to Manchester City, Messi to PSG, Varane to Man United.",
+        "New signings: Haaland to Man City, Messi to PSG, Varane to Man United.",
+        "Recent transfers: Haaland to City, Messi to PSG, Varane to United.",
+        "Recent signings: Haaland, Messi, Varane.",
+        "New transfers: Haaland, Messi, Varane."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a football joke!",
+        "Do you know a joke about football?",
+        "Make me laugh with a football joke.",
+        "Any football jokes?",
+        "Tell me something funny about football."
+      ],
+      "responses": [
+        "Why don't football players get hot? They have so many fans!",
+        "Why was the footballer upset on his day off? He couldn't kick it!",
+        "Why did the football team go to the bank? To get their quarterback!",
+        "Why is Cinderella so bad at football? She runs away from the ball!",
+        "What do you call a football team that never wins? The Avengers, they always lose first!"
+      ]
+    },
+    {
+      "tag": "goat",
+      "patterns": [
+        "Who is the GOAT of football?",
+        "Greatest football player of all time?",
+        "Who is considered the best footballer ever?",
+        "Best football player in history?",
+        "Who is the GOAT in football?"
+      ],
+      "responses": [
+        "Many say Messi or Ronaldo.",
+        "The debate is often Messi vs Ronaldo.",
+        "Messi and Ronaldo are often mentioned."
+      ]
+    },
+    {
+      "tag": "single_best_player",
+      "patterns": [
+        "Who is the best football player right now?",
+        "Top footballer currently?",
+        "Who is the number one football player?",
+        "Best player in football today?",
+        "Name the best football player currently playing"
+      ],
+      "responses": [
+        "Many consider Messi the best.",
+        "Ronaldo is often regarded as top.",
+        "Messi is widely considered the best."
+      ]
+    }
+  ]
+}
